@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65daaf48-3036-4633-a945-88dbab79b070">
+  <producedTypes>
+    <objectType typeId="4b191dd9-ba58-479f-90ce-d23da9b2df75" valueTypeId="01559046-3a42-489d-abb1-b53826f5101a"/>
+    <managerType typeId="b75619d5-ec09-4a53-8c7c-8532378db40c" valueTypeId="e5f63ddd-372b-4365-9946-aed032eec609"/>
+  </producedTypes>
+  <name>ИТМ_АРМ_ТСД_СотрудниковСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место оператора склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИТМ_АРМ_ТСД_СотрудниковСклада.Form.Форма</defaultForm>
+  <forms uuid="65a99c12-bf74-48b4-9136-bb745dd4d087">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7a3e633-c675-4660-8e71-b45e3ae794dc">
+    <name>НастройкаПараметровРабочегоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка параметров рабочего места</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Workplace parameters configuration</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

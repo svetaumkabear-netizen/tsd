@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="93610efa-ff87-43f2-bc76-67b5a4d22866" extendedConfigurationObject="b5572174-7098-41cf-9df9-5df1011e06b4">
+  <producedTypes>
+    <refType typeId="a68488e1-5cf1-42dc-9bee-c7a1d703df3f" valueTypeId="c21dd40b-7eb3-452e-8f2c-77be6c231a09"/>
+    <listType typeId="adde5a60-8ba7-4a42-b66c-a07ce8b534c3" valueTypeId="0ca0c60d-d3d3-4710-9414-55c7e171a421"/>
+    <managerType typeId="71afe1f4-0ccb-46f5-91a9-8f79e6020e7b" valueTypeId="6ea531f4-a536-4900-b1d6-a06c56935b3b"/>
+  </producedTypes>
+  <name>ФормыОткрываемыеПриНачалеРаботыСистемы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="143bb5b6-9016-4b51-835a-bd19414bdbb6">
+    <name>ИТМ_АРМ_ТСД_СотрудниковПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>АРМ ТСД сотрудников производства</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3611337c-895a-4d5a-a8a3-e6b32378c051">
+    <name>ИТМ_АРМ_ТСД_СотрудниковСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТМ АРМ ТСД сотрудников склада</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

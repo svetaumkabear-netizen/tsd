@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80fcf79d-d0c1-4b45-b668-340af8943c2a">
+  <producedTypes>
+    <objectType typeId="2428e8b5-a684-4b56-a8a0-5d1082897c84" valueTypeId="53244b50-4809-4e39-a2a3-c3856e21295d"/>
+    <managerType typeId="1c331ff0-b663-413e-b269-de6893787a44" valueTypeId="23142a02-a39b-4c45-9ca1-7235e8a54028"/>
+  </producedTypes>
+  <name>ИТМ_ВыпускИОприходованиеОператорами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск производства и оприходование на склад операторами ТСД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИТМ_ВыпускИОприходованиеОператорами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Выпуск производства и оприходование на склад операторами ТСД</value>
+  </extendedPresentation>
+  <templates uuid="cb8e0a85-8491-4e91-a947-2afd10acc9d6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

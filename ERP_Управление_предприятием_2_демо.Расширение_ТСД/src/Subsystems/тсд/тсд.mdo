@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="140ad455-0958-49b1-9b25-0340e2f69d93">
+  <name>тсд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тсд</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ИТМ_ДанныеВыпускаПродукцииИПередачиНаСклад</content>
+  <content>DataProcessor.ИТМ_АРМ_ТСД_СотрудниковПроизводства</content>
+  <content>DataProcessor.ИТМ_АРМ_ТСД_СотрудниковСклада</content>
+  <content>Report.ИТМ_ВыпускИОприходованиеОператорами</content>
+  <content>Document.ИТМ_ОприходованиеПродукцииОператором</content>
+  <content>Document.ИТМ_ВыпускПродукцииОператором</content>
+</mdclass:Subsystem>
